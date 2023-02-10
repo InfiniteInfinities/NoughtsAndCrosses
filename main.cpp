@@ -111,10 +111,10 @@ int main()
         player_turn();
     }
     if(turn == 'X' && !draw){
-        cout<<"Congratulations!Player with 'O' has won the game\n";
+        cout<<"Congratulations!Player 2 has won the game\n";
     }
     else if(turn == 'O' && !draw){
-        cout<<"Congratulations!Player with 'X' has won the game\n";
+        cout<<"Congratulations!Player 1 has won the game\n";
     }
     else
         cout<<"GAME DRAW!!!\n";
